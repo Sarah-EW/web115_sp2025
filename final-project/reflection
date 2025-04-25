@@ -1,0 +1,11 @@
+For my approach, I created an html form that takes the data, and added a place to edit the tasks (doesn’t work), and then place to display and sort the tasks.
+
+I created the task update area in JavaScript in order to function dynamically. I made an event listener with a function to happen when the submit button is clicked to create each object. The function gets the values from the form using a getValues() function, and then adds them to an array called listOfTasks using .push and the task constructor function taskEntry(), and displays the tasks using the function displayTasks().
+
+The displayTasks() function creates a card for each task, and the css is updated by class depending on values of important and completed.
+
+I made buttons to sort by priority, importance, and date.
+
+I was unable to make the edit work. If you click on a card you’ll get a pop-up window that says “make edits in the form and click submit to update it”, but it just makes a new object – I’m thinking I need a different button for updates
+
+I like the idea of this project, and enjoyed working on it, unfortunately, I just wasn’t able to make it work in a reasonable amount of time, and my code is a mess. 
